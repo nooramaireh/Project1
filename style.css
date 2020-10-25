@@ -1,0 +1,121 @@
+body{
+    direction: rtl ; 
+}
+.main
+{
+    width: 50%;
+    border : 1px solid rgb(221, 218, 218) ; 
+  
+}
+
+.job-header{
+    padding: 15px;
+}
+
+
+.last-jobs {
+    clear: both;
+    padding: 10px;
+
+}
+
+.jobs-list{
+    border : 1px solid rgb(221, 218, 218) ; 
+}
+
+
+
+.last-jobs p ,.jobs-footer p{
+   text-align: right;
+   margin-right: 15px;
+   font-size: 27px;
+
+}
+
+.jobs-footer p{
+    font-size: 20px;
+}
+
+.logo
+{
+    width: 150px;
+    height: auto ;
+    float: right;
+}
+
+.social-media{
+    list-style: none ; 
+    float: left;
+    padding: 0px;
+}
+
+.social-media li{
+    display: inline-block ;
+}
+
+.social-media li a{
+    text-decoration: none ; 
+}
+.social-media li a img{
+   width: 22px;
+   height: auto;
+   padding: 5px 10px; 
+}
+
+.last-jobs , .jobs-footer{
+    background-color: #264e90;
+    color: white;
+}
+
+.jobs-footer{
+    padding: 30px;
+
+}
+
+
+.contact-us{
+    float: right;
+}
+
+.btn-contact-us{
+    float: left;
+
+}
+.btn-contact-us a{
+    text-decoration: none;
+    color: white;
+    outline: 1px solid white;
+    padding: 8px 15px;
+}
+
+.jobs-info p  ,.buttons
+{
+    direction: rtl;
+}
+
+.job-item{
+    padding: 28px;
+}
+
+
+.buttons{
+    margin-top: 40px;
+}
+
+.btn-submit , .btn-send{
+    text-decoration: none ; 
+    padding: 10px 20px;
+}
+
+.btn-submit{
+    background-color: #5bb546;
+    color: white;
+}
+.btn-send{
+    outline: 1px solid #264e90 ;
+}
+.active {
+	color: white;
+	outline : 1px solid rgb(5, 177, 5); 
+	background-color  :  rgb(5, 177, 5);
+}
